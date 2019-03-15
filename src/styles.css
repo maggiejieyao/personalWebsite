@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+
+#mainBody h1 {
+    text-align: center;
+    color: white;
+    padding-top: 12%;
+    font-family: 'Rock Salt', cursive;
+}
+
+#mainBody h2 {
+    margin-top: 2%;
+    text-align: center;
+    color: white;
+    font-family: 'Rock Salt', cursive;
+}
+
+#videoPart{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+    filter: grayscale(80%);
+}
+
+.color{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: -90;
+    background-color: gray;
+    fill: alpha(opacity = 50);
+}
+
